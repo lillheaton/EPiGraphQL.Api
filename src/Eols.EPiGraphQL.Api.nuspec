@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Eols.EPiGraphQL.Api</id>
+    <version>0.6.0</version>
+    <authors>Emil Olsson</authors>
+    <owners>Emil Olsson</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/lillheaton/Eols.EPiGraphQL.Api</projectUrl>
+    <description>nfas fnaslnf</description>
+    <releaseNotes/>
+    <copyright>Copyright 2018</copyright>
+    <dependencies>
+      <dependency id="Eols.EPiGraphQL.Cms" version="0.6.0-preview-4"/>
+      <dependency id="Eols.EPiGraphQL.Core" version="0.6.0-preview-2"/>
+      <dependency id="GraphQL.Relay" version="0.5.0"/>
+      <dependency id="Microsoft.AspNet.WebApi" version="5.2.6"/>
+    </dependencies>
+  </metadata>
+</package>

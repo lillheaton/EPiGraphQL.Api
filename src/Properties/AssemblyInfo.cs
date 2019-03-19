@@ -1,35 +1,16 @@
-﻿using System.Reflection;
+using System;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
+[assembly: AssemblyDescription("Eols.EPiGraphQL.Api an EPiServer tool")]
 [assembly: AssemblyTitle("Eols.EPiGraphQL.Api")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Eols.EPiGraphQL.Api")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
+[assembly: AssemblyCopyright("Copyright 2018 Emil Olsson")]
+[assembly: AssemblyTrademark("aa858b980e3c2c07f2e84c06749260c07f72f507")]
+[assembly: AssemblyVersion("0.6.0.1519")]
+[assembly: AssemblyFileVersion("0.6.0.1519")]
+[assembly: AssemblyInformationalVersion("0.6.0.1519")]
 
-// Setting ComVisible to false makes the types in this assembly not visible 
-// to COM components.  If you need to access a type in this assembly from 
-// COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
-
-// The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("74dd5bef-1029-427b-a464-92a02daa4823")]
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
