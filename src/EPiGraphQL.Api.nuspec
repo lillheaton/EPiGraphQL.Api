@@ -11,8 +11,8 @@
     <releaseNotes/>
     <copyright>Copyright 2018</copyright>
     <dependencies>
-      <dependency id="EPiGraphQL.Cms" version="0.6.0-preview-4"/>
-      <dependency id="EPiGraphQL.Core" version="0.6.0-preview-2"/>
+      <dependency id="EPiGraphQL.Cms" version="0.6.0-preview-6"/>
+      <dependency id="EPiGraphQL.Core" version="0.6.0-preview-4"/>
       <dependency id="GraphQL.Relay" version="0.5.0"/>
       <dependency id="Microsoft.AspNet.WebApi" version="5.2.6"/>
     </dependencies>
