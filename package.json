@@ -1,18 +1,18 @@
 {
-  "name": "eols.epigraphql.api",
+  "name": "EPiGraphQL.api",
   "version": "0.6.0",
   "description": "",
   "main": "index.js",
   "author": "Emil Olsson",
   "license": "MIT",
-  "homepage": "https://github.com/lillheaton/Eols.EPiGraphQL.Api#readme",
+  "homepage": "https://github.com/lillheaton/EPiGraphQL.Api#readme",
   "scripts": {
     "build:release": "set CONFIGURATION=Release && babel-node tools/build.js ci",
     "setVersion": "babel-node tools/build.js setVersion"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lillheaton/Eols.EPiGraphQL.Api.git"
+    "url": "git+https://github.com/lillheaton/EPiGraphQL.Api.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",

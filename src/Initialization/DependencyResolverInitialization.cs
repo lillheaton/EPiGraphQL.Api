@@ -4,7 +4,7 @@ using EPiServer.ServiceLocation;
 using GraphQL;
 using GraphQL.Http;
 
-namespace Eols.EPiGraphQL.Api.Initialization
+namespace EPiGraphQL.Api.Initialization
 {
     [InitializableModule]
     public class DependencyResolverInitialization : IConfigurableModule

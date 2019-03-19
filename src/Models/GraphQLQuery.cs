@@ -1,4 +1,4 @@
-﻿namespace Eols.EPiGraphQL.Api.Models
+﻿namespace EPiGraphQL.Api.Models
 {
     public class GraphQLQuery
     {

@@ -1,4 +1,4 @@
-﻿using Eols.EPiGraphQL.Api.Models;
+﻿using EPiGraphQL.Api.Models;
 using EPiServer.ServiceLocation;
 using GraphQL;
 using GraphQL.Http;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace Eols.EPiGraphQL.Api.Controllers
+namespace EPiGraphQL.Api.Controllers
 {
     [RoutePrefix("Api/GraphQL")]
     public class GraphQLController : ApiController

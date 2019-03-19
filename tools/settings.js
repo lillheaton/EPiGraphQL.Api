@@ -2,7 +2,7 @@ import path from 'path'
 import moment from 'moment'
 import pjson from '../package.json'
 
-const projectName = 'Eols.EPiGraphQL.Api'
+const projectName = 'EPiGraphQL.Api'
 const target = process.env.CONFIGURATION || 'Debug'
 const buildNumber = process.env.APPVEYOR_BUILD_NUMBER
 const appVeyorJobId = process.env.APPVEYOR_JOB_ID
@@ -25,11 +25,11 @@ const cleanPaths = [
   `${projectSourcePath}/bin`
 ]
 
-const nugetDependencies = ['Eols.EPiGraphQL.Cms', 'Eols.EPiGraphQL.Core']
+const nugetDependencies = ['EPiGraphQL.Cms', 'EPiGraphQL.Core']
 
 const versionInfo = {
-  description: 'Eols.EPiGraphQL.Api an EPiServer tool',
-  productName: 'Eols.EPiGraphQL.Api',
+  description: 'EPiGraphQL.Api an EPiServer tool',
+  productName: 'EPiGraphQL.Api',
   copyright: 'Copyright 2018 Emil Olsson',
   version: assemblyVersion,
   fileVersion: assemblyVersion,
