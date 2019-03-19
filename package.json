@@ -7,7 +7,7 @@
   "license": "MIT",
   "homepage": "https://github.com/lillheaton/EPiGraphQL.Api#readme",
   "scripts": {
-    "build:release": "set CONFIGURATION=Release && babel-node tools/build.js ci",
+    "build:release": "set CONFIGURATION=Release&& babel-node tools/build.js ci",
     "setVersion": "babel-node tools/build.js setVersion"
   },
   "repository": {
