@@ -12,9 +12,10 @@ namespace EPiGraphQL.Api.Initialization
         {
             GlobalConfiguration.Configure(config =>
             {
-                // TODO: Check if already initialized
-
-                config.MapHttpAttributeRoutes();
+                if (!config.Routes.ContainsKey("MS_attributerouteWebApi"))
+                {
+                    config.MapHttpAttributeRoutes();
+                }
             });
         }
 
