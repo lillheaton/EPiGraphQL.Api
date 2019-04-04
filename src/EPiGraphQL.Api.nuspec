@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>EPiGraphQL.Api</id>
-    <version>0.6.0</version>
+    <version>0.6.2</version>
     <authors>Emil Olsson</authors>
     <owners>Emil Olsson</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
