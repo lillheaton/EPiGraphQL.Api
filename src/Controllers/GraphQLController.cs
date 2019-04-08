@@ -45,12 +45,7 @@ namespace EPiGraphQL.Api.Controllers
             {
                 var inputs = query.Variables.ToInputs();
                 var queryToExecute = query.Query;
-
-                //if (!string.IsNullOrWhiteSpace(query.NamedQuery))
-                //{
-                //    queryToExecute = _namedQueries[query.NamedQuery];
-                //}
-
+                
                 var result = await _executer.ExecuteAsync(_ =>
                 {
                     _.Schema = _schema;
