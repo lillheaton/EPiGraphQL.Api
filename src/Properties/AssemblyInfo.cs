@@ -3,9 +3,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyDescription("EPiGraphQL.Api an EPiServer tool")]
-[assembly: AssemblyTitle("EPiGraphQL.Api")]
-[assembly: AssemblyProduct("EPiGraphQL.Api")]
+[assembly: AssemblyDescription("Graphify.EPiServer.Api an EPiServer tool")]
+[assembly: AssemblyTitle("Graphify.EPiServer.Api")]
+[assembly: AssemblyProduct("Graphify.EPiServer.Api")]
 [assembly: AssemblyCopyright("Copyright 2018 Emil Olsson")]
 [assembly: AssemblyTrademark("61b5e4909a5867932bd6b07a753b2cd7729c464b")]
 [assembly: AssemblyVersion("0.6.2.0904")]

@@ -2,7 +2,7 @@
 using EPiServer.Framework.Initialization;
 using System.Web.Http;
 
-namespace EPiGraphQL.Api.Initialization
+namespace Graphify.EPiServer.Api.Initialization
 {
     [InitializableModule]
     [ModuleDependency(typeof(FrameworkInitialization))]

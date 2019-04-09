@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
-    <id>EPiGraphQL.Api</id>
+    <id>Graphify.EPiServer.Api</id>
     <version>0.6.2</version>
     <authors>Emil Olsson</authors>
     <owners>Emil Olsson</owners>
     <tags>EPiServer GraphQL Api</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectUrl>https://github.com/lillheaton/EPiGraphQL.Api</projectUrl>
+    <projectUrl>https://github.com/lillheaton/Graphify.EPiServer.Api</projectUrl>
     <description>Plug and play EPiServer GraphQL service</description>
     <releaseNotes/>
     <copyright>Copyright 2018</copyright>
     <dependencies>
-      <dependency id="EPiGraphQL.Cms" version="0.6.0-preview-6"/>
-      <dependency id="EPiGraphQL.Core" version="0.6.0-preview-4"/>
+      <dependency id="Graphify.EPiServer.Cms" version="0.6.0-preview-6"/>
+      <dependency id="Graphify.EPiServer.Core" version="0.6.0-preview-4"/>
       <dependency id="GraphQL.Relay" version="0.5.0"/>
       <dependency id="Microsoft.AspNet.WebApi" version="5.2.3"/>
     </dependencies>

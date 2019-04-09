@@ -1,4 +1,4 @@
-﻿namespace EPiGraphQL.Api.Models
+﻿namespace Graphify.EPiServer.Api.Models
 {
     public class GraphQLQuery
     {

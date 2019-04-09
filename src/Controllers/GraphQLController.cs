@@ -1,4 +1,4 @@
-﻿using EPiGraphQL.Api.Models;
+﻿using Graphify.EPiServer.Api.Models;
 using EPiServer.ServiceLocation;
 using GraphQL;
 using GraphQL.Http;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace EPiGraphQL.Api.Controllers
+namespace Graphify.EPiServer.Api.Controllers
 {
     [RoutePrefix("Api/GraphQL")]
     public class GraphQLController : ApiController

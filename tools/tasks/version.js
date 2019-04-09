@@ -63,7 +63,7 @@ using System.Runtime.InteropServices;
     .then(
       updateFile(
         'Updating nuspec file version',
-        './src/EPiGraphQL.Api.nuspec',
+        './src/Graphify.EPiServer.Api.nuspec',
         data => {
           let newFileContent = data
 
