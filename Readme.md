@@ -1,4 +1,5 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/2x0x8yugaj0fa1mq?svg=true)](https://ci.appveyor.com/project/lillheaton/Graphify.EPiServer-api)
+[![Build status](https://ci.appveyor.com/api/projects/status/4w5pfon4j7thif7x?svg=true)](https://ci.appveyor.com/project/lillheaton/graphify-episerver-api)
+
 [![NuGet](https://img.shields.io/nuget/v/Graphify.EPiServer.Api.svg)](https://www.nuget.org/packages/Graphify.EPiServer.Api/)
 
 Adding [Facebook's GraphQL](https://github.com/facebook/graphql) for [EPiServer's](https://www.episerver.com/) platform. This tool automates creation of Graphs based on the defined available content types.
