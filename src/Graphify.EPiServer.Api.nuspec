@@ -9,6 +9,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/lillheaton/Graphify.EPiServer.Api</projectUrl>
     <description>Plug and play EPiServer GraphQL service</description>
+    <license>MIT</license>
     <releaseNotes/>
     <copyright>Copyright 2018</copyright>
     <dependencies>
